@@ -2,7 +2,9 @@
 
 ## Gambaran Umum
 
-Project ini merupakan aplikasi Flutter sederhana yang mendemonstrasikan beberapa konsep dasar Flutter, seperti:
+<img width="1919" height="1079" alt="Screenshot 2026-03-16 224729" src="https://github.com/user-attachments/assets/1f08123f-d0d9-49af-877c-1fd75f776b6e" />
+
+Gambaran umum isi code flutter :
 
 * **StatelessWidget**
 * **StatefulWidget**
@@ -12,12 +14,16 @@ Project ini merupakan aplikasi Flutter sederhana yang mendemonstrasikan beberapa
 * **Responsive layout menggunakan MediaQuery**
 * **Manajemen state menggunakan setState()**
 
+![WhatsApp Image 2026-03-16 at 10 46 37 PM](https://github.com/user-attachments/assets/a2006ea1-80d1-4cde-b387-a23a478658fb)
+
 Aplikasi ini menampilkan:
 
 * Sebuah gambar dari internet
 * Teks deskripsi
 * Kategori ikon
 * Counter sederhana yang bisa ditambah dengan tombol
+
+Note : Saya menggunakan android device.
 
 ---
 
@@ -37,19 +43,7 @@ Aplikasi ini terdiri dari tiga komponen utama:
 import 'package:flutter/material.dart';
 ```
 
-Baris ini digunakan untuk mengimpor **library Material Design** milik Flutter.
-
-Library ini menyediakan berbagai widget UI seperti:
-
-* Scaffold
-* AppBar
-* Text
-* Row
-* Column
-* Container
-* Icon
-
-Semua widget tersebut mengikuti standar desain **Material Design dari Google**.
+untuk mengimpor **library Material Design** milik Flutter.
 
 ---
 
@@ -314,14 +308,6 @@ Column(
 )
 ```
 
-Kategori yang ditampilkan:
-
-| Ikon | Kategori |
-| ---- | -------- |
-| 🍔   | Food     |
-| 🏞️  | Scenery  |
-| 👥   | People   |
-
 ---
 
 # 12. Widget CounterCard
@@ -343,13 +329,6 @@ class CounterCard extends StatefulWidget
 ```
 
 `StatefulWidget` digunakan ketika UI **memiliki data yang bisa berubah**.
-
-Contoh penggunaan:
-
-* counter
-* animasi
-* input pengguna
-* data dari API
 
 ---
 
@@ -432,34 +411,6 @@ Teks deskripsi
 Kategori ikon (Row)
    ↓
 Counter
-```
-
----
-
-# Konsep Flutter yang Dipelajari
-
-Project ini mendemonstrasikan beberapa konsep dasar Flutter, yaitu:
-
-* Arsitektur UI berbasis widget
-* Perbedaan StatelessWidget dan StatefulWidget
-* Layout menggunakan Row dan Column
-* Styling menggunakan Container
-* Layout responsif dengan MediaQuery
-* Manajemen state menggunakan setState
-* Event handling pada tombol
-* Menampilkan gambar dari internet
-
----
-
-# Cara Menjalankan Project
-
-1. Install Flutter SDK
-2. Buka folder project
-3. Jalankan perintah berikut:
-
-```
-flutter pub get
-flutter run
 ```
 
 ---
